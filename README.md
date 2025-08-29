@@ -12,8 +12,8 @@ import { readInput } from "./lib/inputGetter.js";
         Built in caching system by putting the input string to a file
         on your system, and then returning directly from the file if
         it exists.
-        Otherwise gets it fromt he API, returns it .trim()-ed, and writes
-        it in a file.
+        Otherwise gets it from the API, returns it .trim()-ed, and writes
+        it to a file.
     */
     const input = await readInput(2024, 1);
 })();
